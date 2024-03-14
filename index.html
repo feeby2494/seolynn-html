@@ -11,52 +11,87 @@
 <body>
 	<div class="wrap clearfix">
     <header class="main-header clearfix">
-			<nav class="nav-bar"
-				<div class="content">
-	        <h1 class="name"><a href="#">Totorolla Corolla 8th Gen Guide</a></h1>
-	        <ul class="main-nav">
-						<li><a href="#">Home</a></li>
-	          <li><a href="#">Suspension</a></li>
-	          <li><a href="#">Brakes</a></li>
-						<li><a href="#">Drivetrain</a></li>
-	          <li><a href="#">Engine</a></li>
-						<li><a href="#">Exhaust</a></li>
-	          <li><a href="#">Interior</a></li>
-						<li><a href="#">Exterior</a></li>
-						<li><a href="./unix_linux/index.html">Unix/Linux</a></li>
-	        </ul>
-	      </div>
-			</nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <h1 class="name"><a href="#">Totorolla Corolla 8th Gen Guide</a></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#">Suspension</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#">Brakes</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Drivetrain</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#">Engine</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Exhaust</a></li>
+	          <li class="nav-item"><a class="nav-link" href="#">Interior</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">Exterior</a></li>
+						<li class="nav-item"><a class="nav-link" href="./unix_linux/index.html">Unix/Linux</a></li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header><!--/.main-header-->
     <div class="banner">
-      <img class="logo" src="img/totoro.svg" alt="Totoro and friends">
-      <h1 class="headline">The Best Car</h1>
-      <span class="tagline">The best diy corolla 8th gen guide for the best corolla 8th gen ever.</span>
+      <div class="container">
+        <img class="logo" src="img/totoro.svg" alt="Totoro and friends">
+        <h1 class="headline">The Best Car</h1>
+        <span class="tagline">The best diy corolla 8th gen guide for the best corolla 8th gen ever.</span>
+      </div>
     </div><!--/.banner-->
-    <div class="content">
-      <div class="secondary col">
-        <h2>Welcome!</h2>
-        <p>Totorolla is the name of my car, half corolla and the other half a Totoro.</p>
-        <p>Cupcake ipsum dolor sit. Amet chocolate cake gummies jelly beans candy bonbon brownie candy. Gingerbread powder muffin. Icing cotton candy. Croissant icing pie ice cream brownie I love cheesecake cookie. Pastry chocolate pastry jelly croissant.</p>
-        <p>Cake sesame snaps sweet tart candy canes tiramisu I love oat cake chocolate bar. Jelly beans pastry brownie sugar plum pastry bear claw tiramisu tootsie roll. Tootsie roll wafer I love chocolate donuts.</p>
-      </div><!--/.secondary-->
-      <div class="primary col">
-        <h2>Pratical and reliable daily driver</h2>
-        <img class="feat-img" src="img/corolla.png" alt="Generic Black Corolla 8th gen">
-        <p>Croissant macaroon pie brownie. Cookie marshmallow liquorice gingerbread caramels toffee I love chocolate. Wafer lollipop dessert. Bonbon jelly beans pudding dessert sugar plum. Marzipan toffee drag&#233;e chocolate bar candy toffee pudding I love. Gummi bears pie gingerbread lollipop.</p>
-      </div><!--/.primary-->
-
-      <div class="tertiary col content">
-        <h2>First steps</h2>
-        <p><strong>Maitenance: </strong>Tiramisu caramels gummies chupa chups lollipop muffin. Jujubes chocolate caramels cheesecake brownie lollipop drag&#233;e cheesecake.</p>
-        <p><strong>Worn out rubber: </strong>Pie apple pie pudding I love wafer toffee liquorice sesame snaps lemon drops. Lollipop gummi bears dessert muffin I love fruitcake toffee pie.</p>
-        <p><strong>Peeling clear coat: </strong>Jelly cotton candy bonbon jelly-o jelly-o I love. I love sugar plum chocolate cake pie I love pastry liquorice.</p>
-      </div><!--/.tertiary-->
-    </div><!--.col-wrap-->
+    <div class="container">
+      <div class="content">
+        <div class="secondary col">
+          <h2>Welcome!</h2>
+          <p>Totorolla is the name of my car, half corolla and the other half a Totoro.</p>
+          <p>Cupcake ipsum dolor sit. Amet chocolate cake gummies jelly beans candy bonbon brownie candy. Gingerbread powder muffin. Icing cotton candy. Croissant icing pie ice cream brownie I love cheesecake cookie. Pastry chocolate pastry jelly croissant.</p>
+          <p>Cake sesame snaps sweet tart candy canes tiramisu I love oat cake chocolate bar. Jelly beans pastry brownie sugar plum pastry bear claw tiramisu tootsie roll. Tootsie roll wafer I love chocolate donuts.</p>
+        </div><!--/.secondary-->
+        <div class="primary col">
+          <h2>Pratical and reliable daily driver</h2>
+          <img class="feat-img" src="img/corolla.png" alt="Generic Black Corolla 8th gen">
+          <p>Croissant macaroon pie brownie. Cookie marshmallow liquorice gingerbread caramels toffee I love chocolate. Wafer lollipop dessert. Bonbon jelly beans pudding dessert sugar plum. Marzipan toffee drag&#233;e chocolate bar candy toffee pudding I love. Gummi bears pie gingerbread lollipop.</p>
+        </div><!--/.primary-->
+  
+        <div class="tertiary col content">
+          <h2>First steps</h2>
+          <p><strong>Maitenance: </strong>Tiramisu caramels gummies chupa chups lollipop muffin. Jujubes chocolate caramels cheesecake brownie lollipop drag&#233;e cheesecake.</p>
+          <p><strong>Worn out rubber: </strong>Pie apple pie pudding I love wafer toffee liquorice sesame snaps lemon drops. Lollipop gummi bears dessert muffin I love fruitcake toffee pie.</p>
+          <p><strong>Peeling clear coat: </strong>Jelly cotton candy bonbon jelly-o jelly-o I love. I love sugar plum chocolate cake pie I love pastry liquorice.</p>
+        </div><!--/.tertiary-->
+      </div><!--.col-wrap-->
+    </div>  
   </div>
 	<footer class="main-footer">
 		<span>&copy;2017 Totorolla.</span>
 	</footer>
-
+  <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
