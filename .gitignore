@@ -1,0 +1,5 @@
+.env
+./vendor
+client_secret.json
+vendor
+vendor/*
