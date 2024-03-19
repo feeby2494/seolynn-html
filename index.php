@@ -38,7 +38,7 @@
   //       $allErrors = join('<br/>', $errors);
   //       $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
   //   }
-  }
+  
 
     if (!empty($errors)) {
       $allErrors = join('<br/>', $errors);
@@ -55,8 +55,8 @@
       $mail->SMTPAuth = true;
       $mail->Username = 'toby2494.development';
       $mail->Password = 'mj1268"Samdasu'; //put me in env file la in env file later
-      $mail->SMTPSecure = 'tls';
-      $mail->Port = 587;
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+      $mail->Port = 465;
       $mail->setFrom($email, 'seolynn.com');
       $mail->addAddress($inputEmail, 'Me');
       $mail->Subject = 'New message from your website';
