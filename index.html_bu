@@ -13,7 +13,7 @@
     <header class="main-header clearfix">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <h1 class="name"><a href="#">Totorolla Corolla 8th Gen Guide</a></h1>
+          <h1 class="name"><a class="text-muted text-decoration-none" href="#">Seolynn IT Services</a></h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,20 +23,12 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
 
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#">Suspension</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#">Brakes</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Drivetrain</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#">Engine</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Exhaust</a></li>
-	          <li class="nav-item"><a class="nav-link" href="#">Interior</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Exterior</a></li>
-						<li class="nav-item"><a class="nav-link" href="./unix_linux/index.html">Unix/Linux</a></li>
+						<!-- <li class="nav-item"><a class="nav-link" href="./unix_linux/index.html">Unix/Linux</a></li> -->
 
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
+              </li> -->
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Dropdown
                 </a>
@@ -46,15 +38,15 @@
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-              </li>
-              <li class="nav-item">
+              </li> -->
+              <!-- <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
+              </li> -->
             </ul>
-            <form class="d-flex" role="search">
+            <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
@@ -62,17 +54,33 @@
     <div class="banner">
       <div class="container">
         <img class="logo" src="img/totoro.svg" alt="Totoro and friends">
-        <h1 class="headline">The Best Car</h1>
-        <span class="tagline">The best diy corolla 8th gen guide for the best corolla 8th gen ever.</span>
+        <h1 class="headline">Seolynn IT Services</h1>
+        <span class="tagline">Your IT and Hardware Superhero.</span>
       </div>
     </div><!--/.banner-->
     <div class="container">
       <div class="content">
         <div class="secondary col">
           <h2>Welcome!</h2>
-          <p>Totorolla is the name of my car, half corolla and the other half a Totoro.</p>
-          <p>Cupcake ipsum dolor sit. Amet chocolate cake gummies jelly beans candy bonbon brownie candy. Gingerbread powder muffin. Icing cotton candy. Croissant icing pie ice cream brownie I love cheesecake cookie. Pastry chocolate pastry jelly croissant.</p>
-          <p>Cake sesame snaps sweet tart candy canes tiramisu I love oat cake chocolate bar. Jelly beans pastry brownie sugar plum pastry bear claw tiramisu tootsie roll. Tootsie roll wafer I love chocolate donuts.</p>
+          <div class="card">
+            <p class="card-header">Send us a message of your issue: whether it's software, broken hardware, or remote support related!</p>
+            <form class="card-body">
+              <div class="form-group">
+                <label for="inputEmail">Email address</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="issueDesc">What Issue are you having?</label>
+                <textarea class="form-control" id="issueDesc" placeholder="Your Issues"></textarea>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="remoteCheck">
+                <label class="form-check-label" for="remoteCheck">Able to Solve Remotly</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div><!--/.secondary-->
         <div class="primary col">
           <h2>Pratical and reliable daily driver</h2>
