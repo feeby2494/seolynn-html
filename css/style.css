@@ -1,0 +1,304 @@
+
+/* =================================
+  Fonts to use
+==================================== */
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+
+.ubuntu-sans-h2HeaderText {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 666;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 450;
+}
+
+.ubuntu-sans-h5HeaderText {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 300;
+}
+
+.ubuntu-sans-text {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 300;
+}
+
+
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name a,
+.main-nav a {
+	text-align: center;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+
+.wrap {
+  text-align: center;
+
+
+}
+
+.banner {
+	color: #fff;
+	background: #668000;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+
+.content {
+  margin: 1em 1em;
+
+}
+
+.tertiary h2 {
+  text-align: center;
+}
+
+.tertiary p {
+  text-align: left;
+}
+
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+  text-align: center;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+	border: solid 4px #fff;
+	border-radius: 100%;
+	background: #d9e4ea;
+	margin-top: 25px;
+}
+
+/* =================================
+  TABLES
+==================================== */
+
+.table_bg {
+  background: #3acec2;
+	width: 100%;
+
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 530px) {
+
+  .content {
+    max-width: 1150px;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .name {
+    float: left;
+    margin: 10px 5px;
+  }
+
+  .main-nav {
+    float: right;
+    margin: 15px 5px;
+
+  }
+
+  .main-nav li {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .primary,
+  .secondary {
+    width: 50%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+  }
+
+  .tertiary {
+    clear: both;
+  }
+
+
+
+  /* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+
+@media (min-width: 1100px) {
+
+   body {
+		 padding-top: 68px;
+	 }
+
+   .main-header {
+     position: fixed;
+		 background: #fff;
+		 width: 100%;
+		 top: 0px;
+     z-index: 1000;
+	 }
+
+
+   .secondary {
+    width: 30%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+  }
+
+  .primary {
+    width: 40%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+  }
+
+  .tertiary {
+    width: 30%;
+    float: left;
+		margin: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    clear: none;
+    padding: 10px;
+  }
+
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}

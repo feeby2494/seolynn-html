@@ -1,0 +1,10 @@
+api/venv
+api.env
+api.sock
+api/api.sock
+api/api.ini
+api/__pycache__
+.DS_Store
+sendEmail.php
+__pycache__
+api/.env
