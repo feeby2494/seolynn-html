@@ -1,0 +1,34 @@
+###################################
+
+Deploy new changes to server
+
+##################################
+
+1. sudo bash moveApi.sh
+
+2. sudo bash moveApiServiceDaemon.sh
+
+3. sudo bash moveFrontEnd.sh
+
+4. deployFrontEnd.sh
+
+5. deployApi.sh
+
+###################################
+
+Push to github
+
+###################################
+
+1. inside root of project:
+	git add .
+
+2. git commit -m "your message"
+
+3. git push --set-upstream origin master
+
+###################################
+
+Ansible deploy script
+
+###################################
